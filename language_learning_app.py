@@ -115,7 +115,7 @@ def quiz_user(words):
   score = 0
 
   for index, word in enumerate(words):
-    if index == 5:
+    if index == 15:
       break
     print(f" What is the English translation of '{word['spanish']}'?")
     user_answer = input("Your answer: ").strip().lower()
