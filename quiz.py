@@ -27,9 +27,57 @@ questions = [
     "options": ["A. Harper Lee", "B. Mark Twain", "C. JK Rowling", "D. Ernest Hemmingway"],
     "answer": "A"
 
+  },
+
+  {
+        "prompt": "Who wrote 'Romeo and Juliet'?",
+        "options": ["A. William Shakespeare", "B. Charles Dickens", "C. Mark Twain", "D. Jane Austen"],
+        "answer": "A"
+  },
+
+  {
+        "prompt": "What is the chemical symbol for gold?",
+        "options": ["A. Au", "B. Ag", "C. Pb", "D. Fe"],
+        "answer": "A"
+  },
+
+
+  {
+        "prompt": "How many continents are there on Earth?",
+        "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+        "answer": "C"
+  },
+    
+  {
+        "prompt": "Which planet is known as the Red Planet?",
+        "options": ["A. Venus", "B. Mars", "C. Jupiter", "D. Saturn"],
+        "answer": "B"
+  },
+
+  {
+        "prompt": "What is the largest ocean on Earth?",
+        "options": ["A. Atlantic Ocean", "B. Indian Ocean", "C. Arctic Ocean", "D. Pacific Ocean"],
+        "answer": "D"
+  },
+
+  {
+        "prompt": "Who painted the Mona Lisa?",
+        "options": ["A. Leonardo da Vinci", "B. Vincent van Gogh", "C. Pablo Picasso", "D. Michelangelo"],
+        "answer": "A"
+  },
+
+  {
+        "prompt": "Which gas do plants absorb from the atmosphere?",
+        "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Hydrogen"],
+        "answer": "B"
+  },
+
+  {
+        "prompt": "How many sides does a hexagon have?",
+        "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+        "answer": "B"
   }
 
-  
 ]
 
 def run_quiz(questions):
@@ -48,7 +96,7 @@ def run_quiz(questions):
       print("Nah g, the correct answer was " , question["answer"], "\n")
   print(f"You got {score} out of {len(questions)} questions correct. ")
 
-  if score<=2:
+  if score<=8:
     print("Do better bum")
   else:
     print("Thats my guy")
