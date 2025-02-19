@@ -106,7 +106,7 @@ words = [
    {"spanish": "buscar", "english": "to search"},
    {"spanish": "llegar", "english": "to arrive"},
    {"spanish": "decir", "english": "to say"},
-   {"spanish": "dar", "english": "to give"}
+   {"spanish": "dar", "english": "to give"},
 ]
 
 
